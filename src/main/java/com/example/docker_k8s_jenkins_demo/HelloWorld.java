@@ -11,6 +11,7 @@ public class HelloWorld {
 
     @GetMapping("/world")
     public String helloWorld(){
+        System.out.println("Printing Hello..");
         return "Hello World..";
     }
 }

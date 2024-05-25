@@ -8,7 +8,7 @@ ENV JAVA_VERSION=17
 COPY target/docker-k8s-jenkins-demo-0.0.1-SNAPSHOT.jar docker-k8s-jenkins-demo-0.0.1-SNAPSHOT.jar
 
 # Expose container port (if your app listens on a specific port)
-EXPOSE 9090
+EXPOSE 8080
 
 # Run your Spring Boot application (replace with your command)
 CMD ["java", "-jar", "docker-k8s-jenkins-demo-0.0.1-SNAPSHOT.jar"]
